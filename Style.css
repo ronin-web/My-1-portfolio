@@ -1,4 +1,4 @@
- /* الأساسيات */
+ /* var */
         :root {
             --primary: #1a1a2e;
             --secondary: #16213e;
@@ -111,7 +111,11 @@
             box-shadow: 0 15px 25px rgba(233, 69, 96, 0.3);
         }
 
-        /* الشريط العلوي */
+
+
+
+
+
         header {
             position: fixed;
             top: 20px;
@@ -280,7 +284,12 @@
             color: var(--highlight);
         }
 
-        /* قسم الهيرو */
+
+
+
+
+
+
         .hero {
             height: 100vh;
             display: flex;
@@ -318,6 +327,7 @@
             margin-bottom: 25px;
             line-height: 1.2;
             font-weight: 800;
+            margin-top: 50px;
             opacity: 0;
             transform: translateY(30px);
             animation: fadeInUp 1s ease 0.5s forwards;
@@ -372,7 +382,12 @@
             background: var(--highlight);
         }
 
-        /* قسم حولي */
+
+
+
+
+
+
         .about {
             background: var(--secondary);
         }
@@ -497,7 +512,13 @@
             font-weight: 600;
         }
 
-        /* قسم الخدمات */
+
+
+
+
+
+
+
         .services {
             background: var(--primary);
         }
@@ -959,4 +980,4 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
-        }
+         }
