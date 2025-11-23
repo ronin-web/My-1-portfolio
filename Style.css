@@ -239,7 +239,7 @@
         }
 
         .nav-links li {
-            margin-right: 35px;
+            margin-right: 25px;
         }
 
         .nav-links a {
@@ -327,7 +327,7 @@
             margin-bottom: 25px;
             line-height: 1.2;
             font-weight: 800;
-            margin-top: 50px;
+            margin-top: 70px;
             opacity: 0;
             transform: translateY(30px);
             animation: fadeInUp 1s ease 0.5s forwards;
@@ -877,6 +877,10 @@
             .about-content, .contact-content {
                 grid-template-columns: 1fr;
             }
+
+          .logo-text {
+           font-size:1.2rem;
+          }
 
             .hero h1 {
                 font-size: 3.2rem;
