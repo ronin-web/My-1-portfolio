@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RONIN - web</title>
+    
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf1DM897S234EfzM7TxI9ZzCs29wOqby81hLxvVubn8JKtatYMmiCY_xg&s=10">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- الشريط العلوي -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="#" class="logo-text">
+                        <div class="logo-icon">R</div>
+                        RONIN
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Hero</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- قسم الهيرو -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>I'm   <span>RONIN</span> <br> a Creative Web Developer </h1>
+                <p> I am a creative and innovative web developer with a passion for designing and building unique and engaging online experiences</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn">My projects</a>
+                    <a href="#contact" class="btn btn-outline"> here me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم حولي -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>about me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Hi. I'm RONIN</h3>
+                    <p>I am a creative web developer with 2 years of experience specializing in building modern, responsive, and user-friendly websites. I focus on delivering clean, efficient, and visually appealing digital experiences</p>
+                    <p>I work mainly with HTML, CSS, Tailwind CSS, and JavaScript to create front-end interfaces that are fast, accessible, and optimized for all devices.</p>
+                    <div class="skills">
+    <div class="skill">
+        <div class="skill-name">
+            <span>Front-End Development</span>
+            <span>95%</span>
+        </div>
+        <div class="skill-bar">
+            <div class="skill-level" data-level="95"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-name">
+            <span>Back-End Development</span>
+            <span>85%</span>
+        </div>
+        <div class="skill-bar">
+            <div class="skill-level" data-level="85"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-name">
+            <span>UI/UX Design</span>
+            <span>90%</span>
+        </div>
+        <div class="skill-bar">
+            <div class="skill-level" data-level="90"></div>
+        </div>
+    </div>
+</div>
+
+</div>
+<div class="about-image">
+    <div class="image-placeholder">
+        <i class="fas fa-user"></i>
+        <span><img src="https://i.pinimg.com/736x/7f/46/e5/7f46e58e97044a20f412cf4c07f374ab.jpg" alt="" /> </span>
+    </div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Services Section -->
+<section class="services" id="services">
+    <div class="container">
+        <div class="section-title">
+            <h2>Services</h2>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Web Development</h3>
+                <p>I develop complete websites using the latest technologies to ensure excellent performance and a unique user experience.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <h3>Responsive Design</h3>
+                <p>All my designs are fully responsive to ensure a perfect experience across all devices.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <h3>UI/UX Design</h3>
+                <p>I design intuitive and appealing user interfaces that focus on user experience and business goals.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section class="projects" id="projects">
+    <div class="container">
+        <div class="section-title">
+            <h2>My Work</h2>
+        </div>
+
+        <div class="projects-filter">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+            <button class="filter-btn" data-filter="app">Apps</button>
+            <button class="filter-btn" data-filter="design">Designs</button>
+        </div>
+
+        <div class="projects-grid">
+            <div class="project-card" data-category="web">
+                <div class="project-img" style="background: var(--accent); display: flex; align-items: center; justify-content: center;">
+                    <i class="fas fa-laptop-code" style="font-size: 4rem; color: var(--highlight);"></i>
+                </div>
+                <div class="project-overlay">
+                    <h3 class="project-title">E-Commerce Website</h3>
+                    <p class="project-desc">A complete e-commerce website with secure payment and inventory management.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="app">
+                <div class="project-img" style="background: var(--accent); display: flex; align-items: center; justify-content: center;">
+                    <i class="fas fa-mobile-alt" style="font-size: 4rem; color: var(--highlight);"></i>
+                </div>
+                <div class="project-overlay">
+                    <h3 class="project-title">Task Manager App</h3>
+                    <p class="project-desc">An app for managing daily tasks with multi-device sync and notifications.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="design">
+                <div class="project-img" style="background: var(--accent); display: flex; align-items: center; justify-content: center;">
+                    <i class="fas fa-palette" style="font-size: 4rem; color: var(--highlight);"></i>
+                </div>
+                <div class="project-overlay">
+                    <h3 class="project-title">Brand Identity</h3>
+                    <p class="project-desc">A complete brand identity design for a tech startup.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+    <div class="container">
+        <div class="section-title">
+            <h2>Contact Me</h2>
+        </div>
+
+        <div class="contact-content">
+            <div class="contact-info">
+
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h3>Address</h3>
+                        <p>Riyadh, Saudi Arabia</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h3>Phone</h3>
+                        <p>+966 50 123 4567</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h3>Email</h3>
+                        <p>hello@ronin.com</p>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-behance"></i></a>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" placeholder="Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <div class="logo-icon">R</div>
+                RONIN
+            </div>
+
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <p class="copyright">© 2026 RONIN. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+    <script>
+        // التنقل المتنقل
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+        const header = document.getElementById('header');
+        const navbar = document.querySelector('.navbar');
+
+        let lastScrollY = window.scrollY;
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        });
+
+        // إغلاق القائمة عند النقر على رابط
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                hamburger.classList.remove('active');
+            });
+        });
+
+        // التحكم في ظهور وإخفاء الشريط العلوي
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 100) {
+                header.classList.add('scrolled');
+                navbar.classList.add('scrolled');
+                
+                if (window.scrollY > lastScrollY) {
+                    header.classList.add('hidden');
+                } else {
+                    header.classList.remove('hidden');
+                }
+            } else {
+                header.classList.remove('scrolled', 'hidden');
+                navbar.classList.remove('scrolled');
+            }
+            
+            lastScrollY = window.scrollY;
+            
+            // تفعيل ظهور الأقسام عند التمرير
+            const sections = document.querySelectorAll('section');
+            sections.forEach(section => {
+                const sectionTop = section.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+                
+                if (sectionTop < windowHeight * 0.85) {
+                    section.classList.add('visible');
+                    
+                    // تفعيل أشرطة المهارات
+                    if (section.id === 'about') {
+                        const skillLevels = document.querySelectorAll('.skill-level');
+                        skillLevels.forEach(level => {
+                            const width = level.getAttribute('data-level') + '%';
+                            level.style.width = width;
+                        });
+                    }
+                    
+                    // تفعيل بطاقات المشاريع
+                    if (section.id === 'projects') {
+                        const projectCards = document.querySelectorAll('.project-card');
+                        projectCards.forEach((card, index) => {
+                            setTimeout(() => {
+                                card.classList.add('visible');
+                            }, index * 200);
+                        });
+                    }
+                }
+            });
+        });
+
+        // تصفية المشاريع
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const projectCards = document.querySelectorAll('.project-card');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // إزالة النشاط من جميع الأزرار
+                filterBtns.forEach(b => b.classList.remove('active'));
+                // إضافة النشاط للزر المحدد
+                btn.classList.add('active');
+                
+                const filter = btn.getAttribute('data-filter');
+                
+                projectCards.forEach(card => {
+                    if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                        card.style.display = 'block';
+                        setTimeout(() => {
+                            card.classList.add('visible');
+                        }, 200);
+                    } else {
+                        card.classList.remove('visible');
+                        setTimeout(() => {
+                            card.style.display = 'none';
+                        }, 500);
+                    }
+                });
+            });
+        });
+
+        // نموذج التواصل
+        const contactForm = document.getElementById('contactForm');
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('شكراً على رسالتك! سأتواصل معك قريباً.');
+            contactForm.reset();
+        });
+
+        // تفعيل الرسوم المتحركة للعناصر عند التحميل
+        window.addEventListener('load', () => {
+            document.querySelector('.hero').classList.add('visible');
+            
+            // تفعيل أشرطة المهارات إذا كان قسم about مرئياً
+            const aboutSection = document.getElementById('about');
+            if (aboutSection.getBoundingClientRect().top < window.innerHeight) {
+                aboutSection.classList.add('visible');
+                const skillLevels = document.querySelectorAll('.skill-level');
+                skillLevels.forEach(level => {
+                    const width = level.getAttribute('data-level') + '%';
+                    level.style.width = width;
+                });
+            }
+        });
+    </script>
+</body>
+</html>
